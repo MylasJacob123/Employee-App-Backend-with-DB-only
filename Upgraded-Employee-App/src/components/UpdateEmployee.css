@@ -1,0 +1,71 @@
+.update-employee-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.update-employee-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+.update-employee-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.update-employee-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.update-employee-photo-preview {
+  display: block;
+  margin-bottom: 15px;
+  max-width: 100px;
+  border-radius: 5px;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.update-components-error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.update-component-error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}

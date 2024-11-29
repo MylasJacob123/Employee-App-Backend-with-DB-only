@@ -1,0 +1,18 @@
+{
+  "name": "employee-app-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Manage employee data using crud with firebase",
+  "scripts": {
+    "start": "concurrently \"npm run start-react\" \"npm run start-server\"",
+    "start-react": "cd ./upgraded-employee-app && npm start",
+    "start-server": "cd ./app-backend && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "proxy": "http://localhost:9000"
+}
